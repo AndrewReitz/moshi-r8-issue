@@ -1,0 +1,4 @@
+= Moshi R8 Issue
+
+Run the app and it will crash because moshi's KotlinJsonAdapterFactory will not be able to find the constructor
+of the Test class.
