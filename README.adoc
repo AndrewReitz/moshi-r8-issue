@@ -2,3 +2,18 @@
 
 Run the app and it will crash because moshi's KotlinJsonAdapterFactory will not be able to find the constructor
 of the Test class.
+
+The solution appears to be to add this to the proguard-rules.pro file.
+
+```
+-keep class kotlin.Metadata {
+    *;
+}
+
+-keep class com.example.myapplication.Test {
+    *;
+}
+```
+
+Trying to keep just the `Metadata` and the classes constructor did work, and for some reason the entire model class
+needs to be kept.

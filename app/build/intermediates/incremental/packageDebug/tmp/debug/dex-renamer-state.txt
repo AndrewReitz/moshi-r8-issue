@@ -1,0 +1,4 @@
+#Tue Jul 16 10:04:30 CDT 2019
+base.0=/Users/areitz/Projects/MyApplication/app/build/intermediates/transforms/r8/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

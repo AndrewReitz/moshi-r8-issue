@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jul 16 10:04:30 CDT 2019
+0.baseType=DIRECTORY
+0.base=/Users/areitz/Projects/MyApplication/app/build/intermediates/transforms/r8/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
